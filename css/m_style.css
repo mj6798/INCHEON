@@ -1,0 +1,219 @@
+@media (max-width:600px) {
+    .pc { display: none !important; }
+
+    #top { height: 740px; }
+    #top .bar { font-size: 35px; line-height: 70px; margin-left: 5px; }
+    #top .lg img { width: 200px; display: block; margin: 70px 60px 0; }
+    #top input { width: 100%; border-radius: 70px; margin: 35px 0 0 0; }
+    #top .vo { width: 40px; position: absolute; left: 280px; top: 215px; }
+
+    #top a p { margin-left: 55px; }
+
+    #top .tag { margin: 20px 50px 0 50px; }
+    #top .tag li:nth-of-type(1) { margin: 0 20px; }
+    #top .tag li:nth-of-type(3) { margin: 0 5px; }
+    #top .tag li:last-of-type { margin: 0 70px; }
+
+    #top .bt1 { background: #0053da; color: #fff; width: 130px; height: 40px; display: inline-block; line-height: 38px; border-radius: 40px; 
+    position: absolute; left: 27px; top: 370px; }
+    #top .bt1 img { width: 35px; float: left; margin: 10px 0 0 15px; }
+    #top .bt2 { background: #347af9; color: #fff; width: 130px; height: 40px; display: inline-block; line-height: 38px; border-radius: 40px;
+    position: absolute; right: 27px; top: 370px; }
+    #top .bt2 img { width: 35px; float: left; margin: 10px 0 0 15px; }
+    
+    #top .sd1 { width: 230px; height: 65px; background: #fff; margin: 100px 0 0 50px; font-size: 14px; border: 1px solid #ddd; 
+    border-radius: 10px; position: relative; }
+    #top .sd1 p { margin-top: 10px; text-align: right; display: inline-block; position: absolute; right: 15px; top: 0; }
+    #top .sd1 img { width: 70px; float: left; margin-top: 5px; }
+    #top .sd1:after { position: absolute; display: block; content: ""; width: 10px; height: 10px; top: -6px; left: 85%;
+    border-top: 1px solid #ddd; border-left: 1px solid #ddd; transform: rotate(45deg); background: #fff; }
+
+    #top .down { height: 75px; margin: 40px 0 0 155px; }
+
+    #mbn .mbnr { margin-top: 40px; }
+    #mbn .mbnr1 { width: 100%; height: 160px; border-radius: 0; }
+    #mbn .mbnr1 .mb1img { width: 100%; height: 160px; border-radius: 10px; float: none; }
+    #mbn .mbnr1 ul { left: -15px; bottom: 15px; }
+    
+    #mbn .mbnr1 > a { position: absolute; left: 165px; bottom: 15px; }
+    #mbn .mbnr1 > a img { height: 13px; }
+    
+    #mbn .mbnr2 { width: 100%; height: 250px; float: right; border-radius: 10px; position: relative; margin-top: 25px; }
+    #mbn .mbnr2 .txt { height: 18px; margin: 25px 0 0 25px; }
+    #mbn .mbnr2 .man { width: 130px; position: absolute; right: 25px; bottom: 0; }
+    #mbn .mbnr2 .tit { font-size: 20px; margin: 10px 0 0 25px; }
+    
+    #mbn .mbnr2 ul { margin: 20px 0 0 20px; }
+    #mbn .mbnr2 ul li { width: 150px; font-size: 12px; line-height: 30px; }
+    #mbn .mbnr2 ul li a span { margin-left: 10px; }
+    
+    #mbn .mbnr2 .go { width: 100%; height: 30px; font-weight: normal; }
+    #mbn .mbnr2 .go p { font-size: 13px; line-height: 23px; margin: 4px 0 0 25px; }
+    #mbn .mbnr2 .go span { font-size: 10px; width: 34px; height: 20px; position: absolute; right: 158px; bottom: 4px; }
+    
+    #main1 .part1 { margin-top: 30px; }
+    #main1 .part1 h3 { font-size: 20px; float: right; margin-top: 10px; margin-right: 142px; }
+    #main1 .part1 h3 span { font-size: 20px; margin-left: 110px; position: absolute; right: -140px; }
+    #main1 .part1 nav { float: left; background: #0056df; height: 250px; border-radius: 5px; position: relative; }
+    #main1 .part1 nav li { float: none; font-size: 15px; width: 90px; height: 38px; border-radius: 5px; line-height: 38px; color: #fff; }
+    #main1 .part1 nav li:first-of-type { width: 90px; position: absolute; left: 10px; top: 10px; }
+    #main1 .part1 nav li:nth-of-type(2) { margin-top: 50px; }
+    #main1 .part1 nav li.select { background: #f5f5f5; color: #000; }
+
+    #main1 .part1 .nwm { margin-top: 20px; float: right; width: calc(100% - max(90px, 20%)); }
+    #main1 .part1 .nwm li { width: 100%; height: 50px; background: #fff; border-radius: 0; float: none; margin-left: 35px; }
+    #main1 .part1 .nwm li:first-child .ti { margin-bottom: 80px; }
+    #main1 .part1 .nwm li:last-child { margin-right: 0; }
+    #main1 .part1 .nwm li a { width: 200px; padding: 0 10px 0 0; display: inline-block; border-top: 1px solid #666; }
+    #main1 .part1 .nwm li .ti { width: 200px; font-size: 15px; margin-top: 0; white-space: nowrap; text-overflow: ellipsis; overflow: hidden; line-height: 50px; }
+
+    #qk { margin-top: 40px; }
+    #qk .quick h3 { font-size: 20px; margin-top: 40px; display: inline-block; }
+    
+    #qk ul { position: absolute; left: 0px; top: 100px; }
+    #qk ul li { width: 70px; height: 70px; margin-right: 10px; }
+    #qk ul li a img { width: 50px; }
+    #qk ul li a p {font-size: 12px; font-weight: bold; margin-top: 10px; }
+    
+    #main2 { margin-top: 50px; }
+    #main2 .slide1 h3 { font-size: 20px; font-weight: 400; margin-bottom: 25px; }
+    
+    #main2 .slide1 img { width: 220px; height: 150px; }
+    #main2 .slide1 ul li { margin-right: 20px; }
+    #main2 .slide1 ul li p { width: 220px; font-size: 14px; font-weight: normal; margin-top: 15px; white-space: nowrap; text-overflow: ellipsis; overflow: hidden; }
+    
+    #main2 .slide1 > p { position: absolute; right: 0; top: 0; font-weight: 400; }
+    #main2 .slide1 .la { margin-right: 10px; }
+    #main2 .slide1 .ra { margin-left: 10px; }
+    
+    #main2 .slide2 { margin-top: 60px; }
+    #main2 .slide2 h3 { font-size: 24px; font-weight: 400; color: #666; margin-bottom: 25px; }
+    #main2 .slide2 h3 strong { color: #000; }
+    
+    #main2 .slide2 img { width: 130px; height: 120px; margin-bottom: 15px; }
+    #main2 .slide2 ul li { margin-right: 0; margin-bottom: 5px; float: none; text-align: unset; position: relative; }
+    #main2 .slide2 ul li .ti { font-size: 16px; margin: 10px 123px 15px 10px; float: right; }
+    #main2 .slide2 ul li:first-child .ti { margin-right: 134px; }
+    #main2 .slide2 ul li:nth-child(3) .ti { margin-right: 44px; }
+    #main2 .slide2 ul li:nth-child(4) .ti { margin-right: 108px; }
+    #main2 .slide2 ul li .st { font-size: 12px; font-weight: bold; position: absolute; left: 140px; top: 40px; }
+
+    #qbar { margin-top: 0; height: 80px; }
+    #qbar ul li { float: left; width: 50%; height: 40px; border-right: none; font-size: 14px; }
+    #qbar ul li:first-child { border-bottom: 1px solid #ddd; border-right: 1px solid #ddd; }
+    #qbar ul li:nth-child(2) { float: right; border-bottom: 1px solid #ddd; padding-left: 15px; }
+    #qbar ul li:nth-child(3) { border-right: 1px solid #ddd; }
+    #qbar ul li:last-child { float: right; padding-left: 15px; }
+    #qbar ul li a { line-height: 40px; margin-left: 0; }
+    #qbar ul li:first-child a { margin-left: 0; }
+    #qbar ul li a span { margin-left: 30px; margin-top: 15px; }
+    #qbar ul li:nth-child(2) a span { margin-left: 50px; }
+    #qbar ul li:nth-child(3) a span { margin-left: 74px; }
+    #qbar ul li:nth-child(4) a span { margin-left: 64px; }
+
+    footer { margin:80px 0 90px; font-size: 13px; }
+
+    footer address { margin-right: 20px;}
+
+    footer .sns { position: absolute; right: 25%; top: -55px; }
+    footer .sns img { width: 150px; }
+    footer .up { background: #333; width: 70px; height: 32px; display: block; border-radius: 32px; text-align: center; line-height: 34px; color: #fff;
+    font-size: 24px; position: absolute; right: 0; top: 60px; }
+
+
+    /* 민원 페이지 */
+
+    #gnav .nav { height: 74px; position: relative; }
+    #gnav .nav h1 { padding: 22px 160px 22px 0; }
+    #gnav .nav h1 img { width: 195px; }
+
+    #gnav .nav > a { position: absolute; right: 0; top: 2px; color: #fff; background: #0048bc; font-size: 32px; width: 40px; height: 40px;
+    text-align: center; line-height: 74px; }
+    #gnav .nav .sr { right: 44px; background: #0056e0; }
+    #gnav .nav .br { right: 0; background: #0056e0; }
+
+    #main .mbd { width: 100%; padding-left: 0; }
+    #main .mbd .mti { font-size: 22px; margin-top: 30px; padding-bottom: 20px; border-bottom: 1px dotted #444; }
+    #main .mbd > a i { position: absolute; right: 0; top: 25px; }
+    #main .mbd .sh i { right: 32px; }
+    #main .mbd .sb { background: #0048bc; width: 100%; height: 45px; display: inline-block; color: #fff; line-height: 45px; 
+    padding-left: 15px; font-size: 15px; font-weight: bold; position: relative; margin-top: 10px; }
+    #main .mbd .sb span { position: absolute; right: 15px; top: 8px; font-size: 24px; }
+
+    #main .mbd .map h3 { font-size: 19px; }
+    #main .mbd .map .ti { font-size: 17px; }
+    #main .mbd .map > img { width: 100%; }
+
+    #main .mbd .map ul li { font-size: 15px; }
+    #main .mbd .map ul li span { color: #333; font-weight: bold; }
+
+    #main .bottom { margin: 85px 0 0 0; width: 100%; }
+    #main .bottom .manager { height: 80px; line-height: 0; position: relative; } 
+    #main .bottom h3 { margin: 0 0 25px 20px; float: none; line-height: 55px; }
+    #main .bottom .manager ul li { font-size: 14px; position: absolute; left: 20px; top: 60px; }
+    #main .bottom .manager ul li:last-child { left: 185px; }
+
+    #main .bottom .satisfy { height: 150px; }
+    #main .bottom .satisfy h3 { line-height: 0; font-size: 17px; margin-top: 35px; }
+    #main .bottom .satisfy ul { margin-left: 20px; }
+    #main .bottom .satisfy ul li { font-size: 15px; line-height: 0; margin-bottom: 13px; }
+    #main .bottom .satisfy ul li img { margin-top: -6px; }
+    #main .bottom .satisfy a { position: absolute; right: 0; top: 90px; width: 156px; height: 40px; line-height: 40px; }
+    #main .bottom .satisfy .sati { right: 183px; }
+    #main .bottom .satisfy .result { right: 23px; }
+
+    /* 소통 페이지 */
+    
+    #main .mbd .map .cmgo { width: 304px; height: 42px; line-height: 42px; margin: 90px 0 100px 12px; }
+    #main .mbd .map .cmgo img { padding: 14px 60px 0 25px; }
+
+    #main .mbd .map .imti { width: 100%; font-size: 15px; color: #444; background: none; padding: 20px 0 0 0; position: absolute; left: 0; top: 180px; }
+    #main .mbd .map .imti span { font-size: 20px; text-shadow: none; }
+
+    #main .bottom .cmanager { height: 115px; line-height: 0; position: relative; }
+    #main .bottom .cmanager ul li { font-size: 14px; position: absolute; left: 20px; top: 60px; }
+    #main .bottom .cmanager ul li:nth-child(2) { left: 185px; }
+    #main .bottom .cmanager ul li:last-child { left: 20px; top: 85px; }
+
+    /* 행정공개 페이지 */
+    
+    #main .mbd .search fieldset { height: 58px; background: #f6f6f6; margin-top: 20px; }
+    #main .mbd .search fieldset .second { margin-top: 10px; }
+
+    #main .mbd .list tbody { font-size: 13px; }
+    #main .mbd .list tbody tr { display: flex; flex-wrap: wrap; padding: 13px 10px; }
+    #main .mbd .list tbody td { padding: 7px 20px 0 0; display: inline-block; }
+    #main .mbd .list tbody td.tit { width: 100%; padding: 0; }
+    #main .mbd .list tbody td.file { padding-right: 0; }
+    #main .mbd .list tbody .left { height: auto; }
+
+    #main .mbd .page { margin: 20px 62px 0; }
+    #main .mbd .page #pgs { width: 50px; height: 25px; }
+    #main .mbd .page .Go { width: 35px; height: 25px; background: #333; color: #fff; }
+
+    #main .bottom .amanager { height: 115px; line-height: 0; position: relative; }
+    #main .bottom .amanager ul li { font-size: 14px; position: absolute; left: 20px; top: 60px; }
+    #main .bottom .amanager ul li:nth-child(2) { left: 185px; }
+    #main .bottom .amanager ul li:last-child { left: 20px; top: 85px; }
+
+    /* 소개 페이지 */
+
+    #main .mbd .search fieldset #search { width: 150px; }
+    #main .mbd .search fieldset .submit { width: 50px; }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:801px) {
+    .mob { display: none !important; }
+}
